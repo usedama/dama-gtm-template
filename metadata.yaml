@@ -1,0 +1,12 @@
+homepage: "https://usedama.com"
+documentation: "https://docs.usedama.com/setup/web"
+versions:
+  # Newest first. Each sha is the commit whose template.tpl is published.
+  - sha: 4cc3b327e5e895be3769ddee99edcd6125028034
+    changeNotes: |2
+      Initial gallery release.
+      - Loads the DAMA Web SDK (damaDP) and sends events to the EU data location or your own collection URL.
+      - Sends session_start for new sessions (Retention Analysis).
+      - Reads consent from Google Consent Mode, or from your own variables.
+      - Ecommerce events from GA4 data layer data or mapped fields.
+      - Identify Customer and Custom Event tag types.
